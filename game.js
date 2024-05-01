@@ -14,21 +14,9 @@ let availableQuestions = [];
 
 // Sample questions
 let questions = [];
-
-const url = "http://127.0.0.1:5500/questions.json"; //MOdern browsers do not allow this anymore for security reasons, need to use workaround.
-
-    fetch(url).then(res => {
-        if(!res.ok)
-        {
-            console.log("SUCCESS");
-            console.log(res.json);
-        }
-        else
-        {
-            throw new NError("Network response was not okay")
-            console.log("FAIL");
-        }
-    });
+fetch("questions.json").then(res => {
+    console.log(res);
+});
 
 
 // Game constants 
