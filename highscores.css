@@ -1,0 +1,43 @@
+#highScoresList{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+
+}
+
+.high-score{
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover{
+    transform: scale(1.025);
+}
+
+
+#highScoresTable {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 5rem;
+    border: 2px solid black;
+}
+
+#highScoresTable th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+
+#highScoresTable td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+#highScoresTable th {
+    background-color: lightcoral;
+}
+
