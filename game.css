@@ -3,21 +3,65 @@
     margin-bottom: 0.8rem;
     width: 100%;
     font-size: 1.8rem;
-    border: 0.1rem solid lightcoral;
+    border: 0.1rem solid rgb(0, 0, 0);
     background-color: aliceblue;
+    border-radius: 25rem;
 }
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(221, 17, 17, 0.5);
+    box-shadow: 0 0.5rem 1.8rem 0 rgba(221, 17, 17, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
+    
 }
 .choice-prefix{
     padding: 1.5rem 2.5rem;
     background-color: lightcoral;
     color: white;
+    border-radius: 25rem
 }
 
 .choice-text{
     padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
+
+/* HUD */ 
+#hud {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+/* PRGRESS BAR */
+
+#progressBar{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 4rem;
+    border: 0.5rem solid  lightcoral;
+}
+
+#progress-bar-full{
+    height: 3.4rem;
+    background-color: lightcoral;
+    width: 0%;
 }

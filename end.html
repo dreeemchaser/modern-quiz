@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h2 id="finalScore">0</h2>
+
+            <form>
+              <input type="text" name="username" id="username" placeholder="username">
+              <button class="btn" 
+                      href="game.html"
+                      id="saveScoreBtn"
+                      onclick="saveHighScore(event)"
+                      disabled
+                      >
+                SAVE SCORE
+              </button>
+            </form>
+
+            <a class="btn" href="game.html">Play Again</a>
+            <a class="btn" href="index.html">Go Home</a>
+        </div>
+      </div>
+      <script src="end.js"></script>
+</body>
+</html>
