@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Who holds the record for the highest individual score in Test cricket?",
+        "choice1": "Sachin Tendulkar",
+        "choice2": "Brian Lara",
+        "choice3": "Ricky Ponting",
+        "choice4": "Don Bradman",
+        "answer": 2
+    },
+    {
+        "question": "Which country won the ICC Cricket World Cup in 2019?",
+        "choice1": "India",
+        "choice2": "Australia",
+        "choice3": "England",
+        "choice4": "New Zealand",
+        "answer": 3
+    },
+    {
+        "question": "Who is known as the 'King of Spin' in cricket?",
+        "choice1": "Shane Warne",
+        "choice2": "Muttiah Muralitharan",
+        "choice3": "Anil Kumble",
+        "choice4": "Saqlain Mushtaq",
+        "answer": 1
+    },
+    {
+        "question": "Which player has scored the most runs in One Day Internationals (ODIs)?",
+        "choice1": "Virat Kohli",
+        "choice2": "Sachin Tendulkar",
+        "choice3": "Ricky Ponting",
+        "choice4": "Kumar Sangakkara",
+        "answer": 2
+    },
+    {
+        "question": "What is the highest team total in a Test match innings?",
+        "choice1": "890",
+        "choice2": "952/6",
+        "choice3": "876",
+        "choice4": "871/7",
+        "answer": 2
+    }
+]
