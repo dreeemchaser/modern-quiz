@@ -1,0 +1,23 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid lightcoral;
+    background-color: aliceblue;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(221, 17, 17, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: lightcoral;
+    color: white;
+}
+
+.choice-text{
+    padding: 1.5rem;
+}
