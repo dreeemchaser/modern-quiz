@@ -14,9 +14,18 @@ let availableQuestions = [];
 
 // Sample questions
 let questions = [];
-fetch("questions.json").then(res => {
-    console.log(res);
-});
+fetch("https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple")
+    .then(res => {
+    return res.json();
+})
+    .then(loadedQUestions => {
+        console.log(loadedQUestions);
+        questions = loadedQUestions;
+        startGame();
+    })
+    .catch(error => {
+        console.log(error);
+    });
 
 
 // Game constants 
@@ -87,6 +96,3 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 }
-
-// Start the game
-startGame();
